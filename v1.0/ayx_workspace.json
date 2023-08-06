@@ -1,0 +1,43 @@
+{
+    "name": "QVD Tools",
+    "tool_category": "Qlik Tools",
+    "package_icon_path": "configuration\\default_package_icon.png",
+    "author": "Kongson Cheung, PhD",
+    "company": "",
+    "copyright": "2023",
+    "description": "",
+    "ayx_cli_version": "1.1.0",
+    "backend_language": "python",
+    "backend_language_settings": {
+        "python_version": "3.8",
+        "requirements_local_path": "tool_backends\\requirements-local.txt",
+        "requirements_thirdparty_path": "tool_backends\\requirements-thirdparty.txt"
+    },
+    "tools": {
+        "QVDInputTool": {
+            "backend": {
+                "tool_module": "ayx_plugins",
+                "tool_class_name": "QVDInputTool"
+            },
+            "ui": {},
+            "configuration": {
+                "long_name": "QVD Input Tool",
+                "description": "Input QVD data.",
+                "version": "1.0",
+                "search_tags": [],
+                "help_url": "https://help.alteryx.com/developer-help",
+                "icon_path": "configuration\\QVDInputTool_1_0\\icon.png",
+                "input_anchors": {},
+                "output_anchors": {
+                    "Output": {
+                        "label": "",
+                        "allow_multiple": false,
+                        "optional": false
+                    }
+                },
+                "dcm_namespace": ""
+            }
+        }
+    },
+    "tool_version": "1.0"
+}
