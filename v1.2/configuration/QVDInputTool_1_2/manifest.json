@@ -1,0 +1,7 @@
+{
+    "version": "3.10",
+    "entry_point": "QVDInputTool_1_2\\main.pyz",
+    "tool_package": "ayx_plugins",
+    "tool_name": "QVDInputTool",
+    "additional_pythonpaths": []
+}
