@@ -19,6 +19,8 @@ Download the xyi file and simply double click to install.
 
 Version
 
+v.1.2 - Using latest Alteryx SDK and python for Alteryx 24.1 version or above.
+
 v.1.1 - include prototypes of both QVD Input and Output Tools
 
 v.1.0 - include prototype of QVD Input Tool
